@@ -106,7 +106,6 @@ The notebook `Yield_Predictor.ipynb` follows a complete **machine learning regre
 1. **Clone the repository**
    ```bash
    git clone https://github.com/NadeeshaniKJ/yeild_predictor_for_sri_lanka_using_gradient_boosting_regressor.git
-   cd Yield_Predictor
    ```
 
 2. **Install dependencies**
@@ -114,9 +113,10 @@ The notebook `Yield_Predictor.ipynb` follows a complete **machine learning regre
    pip install pandas numpy matplotlib seaborn scikit-learn
    ```
 
-3.**Run the notebook**
+3. **Run the notebook**
    ```bash
    jupyter notebook Yield_Predictor.ipynb
    ```
+
 
 Execute all cells sequentially to reproduce the analysis and model results.
