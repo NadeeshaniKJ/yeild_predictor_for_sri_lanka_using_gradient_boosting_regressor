@@ -21,9 +21,9 @@ Yield_Predictor/
 
 ## Project Objective
 
-The main objective of this project is to predict **crop yield** for Sri Lankan provinces using available agricultural records.  
+The main objective of this project is to predict crop yield for Sri Lankan provinces and districts using available agricultural records.  
 The dataset includes information such as crop type, province, district, cultivated area, production, and yield.  
-The project demonstrates the use of **Gradient Boosting Regression** for accurate yield estimation.
+The project demonstrates the use of Gradient Boosting Regression for accurate yield estimation.
 
 ---
 
@@ -40,10 +40,10 @@ This dataset contains recorded information on agricultural production across var
 | `Year` | Year of record |
 | `Province` | Province in Sri Lanka (e.g., Central, Western, Southern) |
 | `District` | District name |
-| `Crop` | Name of the cultivated crop (e.g., Paddy, Maize, Tea, Coconut) |
-| `Cultivated_Area` | Total cultivated area (hectares) |
-| `Production` | Total production (metric tons or kilograms) |
-| `Yield` | Yield per hectare (target variable) |
+| `Crop` | Name of the cultivated crop (e.g., Rice, Banana, Maize, Mango) |
+| `Cultivated_Area` | Total cultivated area (acres)  |
+| `Production` | Total production (kilograms) |
+| `Yield` | Yield per acre (target variable) |
 
 
 ---
@@ -72,7 +72,6 @@ The notebook `Yield_Predictor.ipynb` follows a complete **machine learning regre
    - Splitting data into training and testing sets  
    - Training models:
      - **Gradient Boosting Regressor**
-   - Comparing model performances  
 
 6. **Model Evaluation**
    - Metrics used:
